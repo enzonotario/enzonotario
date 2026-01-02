@@ -1,0 +1,23 @@
+{
+  "name": "enzonotario",
+  "version": "1.0.0",
+  "description": "Hi, I'm Enzo Notario",
+  "bugs": "https://github.com/enzonotario/enzonotario",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enzonotario/enzonotario"
+  },
+  "funding": "https://github.com/sponsors/enzonotario",
+  "license": "MIT",
+  "author": "Enzo Notario <hi@enzonotario.me>",
+  "main": "index.js",
+  "bin": {
+    "enzonotario": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "open": "^8.2.1"
+  }
+}
