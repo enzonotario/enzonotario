@@ -1,0 +1,13 @@
+{
+  "overrides": {
+    "ezecorigliano": {
+      "name": "Revolt",
+      "avatarUrl": "https://argentinadatos.com/assets/sponsors/revolt.png"
+    },
+    "wickathou": {
+      "name": "Diploi",
+      "avatarUrl": "https://argentinadatos.com/assets/sponsors/diploi.png"
+    }
+  },
+  "extras": []
+}

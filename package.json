@@ -17,7 +17,14 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "sponsors": "node scripts/generate-sponsors.mjs"
+  },
   "dependencies": {
     "open": "^8.2.1"
+  },
+  "devDependencies": {
+    "@takumi-rs/image-response": "^0.73.1",
+    "react": "^19.2.4"
   }
 }
