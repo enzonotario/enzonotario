@@ -4,10 +4,16 @@
       "name": "Revolt",
       "avatarUrl": "https://argentinadatos.com/assets/sponsors/revolt.png"
     },
-    "wickathou": {
-      "name": "Diploi",
-      "avatarUrl": "https://argentinadatos.com/assets/sponsors/diploi.png"
-    }
+    "wickathou": [
+      {
+        "name": "Diploi",
+        "avatarUrl": "https://argentinadatos.com/assets/sponsors/diploi.png"
+      },
+      {
+        "name": "VZLA Legal",
+        "avatarUrl": "https://vzlalegal.com/favicon.png"
+      }
+    ]
   },
   "extras": []
 }
