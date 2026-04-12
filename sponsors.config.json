@@ -2,16 +2,19 @@
   "overrides": {
     "ezecorigliano": {
       "name": "Revolt",
-      "avatarUrl": "https://argentinadatos.com/assets/sponsors/revolt.png"
+      "avatarUrl": "https://argentinadatos.com/assets/sponsors/revolt.png",
+      "website": "https://revolt.digital/"
     },
     "wickathou": [
       {
         "name": "Diploi",
-        "avatarUrl": "https://argentinadatos.com/assets/sponsors/diploi.png"
+        "avatarUrl": "https://argentinadatos.com/assets/sponsors/diploi.png",
+        "website": "https://diploi.com/"
       },
       {
         "name": "VZLA Legal",
-        "avatarUrl": "https://vzlalegal.com/favicon.png"
+        "avatarUrl": "https://vzlalegal.com/favicon.png",
+        "website": "https://vzlalegal.com/"
       }
     ]
   },

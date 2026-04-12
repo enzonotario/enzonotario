@@ -25,8 +25,8 @@ const config = existsSync(CONFIG_PATH)
   ? JSON.parse(readFileSync(CONFIG_PATH, 'utf-8'))
   : {}
 
-const overrides = config.overrides ?? {}  // { [login]: { name?, avatarUrl?, url? } }
-const extras    = config.extras    ?? []  // [{ login, name, avatarUrl, url?, monthlyAmount? }]
+const overrides = config.overrides ?? {}  // { [login]: { name?, avatarUrl?, url?, website? } }
+const extras    = config.extras    ?? []  // [{ login, name, avatarUrl, url?, website?, monthlyAmount? }]
 
 // ---------------------------------------------------------------------------
 // 1. Fetch sponsors via GitHub CLI
@@ -68,7 +68,7 @@ async function fetchSponsors() {
       avatarUrlOriginal: s.avatarUrl,  // keep GitHub avatar as fallback
       name: entry.name ?? s.name,
       avatarUrl: entry.avatarUrl ?? s.avatarUrl,
-      url: entry.url ?? s.url,
+      url: entry.website ?? entry.url ?? s.url,
     }))
   })
 
@@ -79,7 +79,7 @@ async function fetchSponsors() {
       login: e.login,
       name: e.name,
       avatarUrl: e.avatarUrl,
-      url: e.url ?? `https://github.com/${e.login}`,
+      url: e.website ?? e.url ?? `https://github.com/${e.login}`,
       monthlyAmount: e.monthlyAmount ?? 0,
     })),
   ]
