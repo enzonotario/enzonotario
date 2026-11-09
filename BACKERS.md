@@ -12,8 +12,4 @@ Thank you to all my sponsors! Your support keeps this work going. 🙏
 | [![Revolt](https://argentinadatos.com/assets/sponsors/revolt.png&s=80)](https://revolt.digital/) |
 | :---: |
 | [Revolt](https://revolt.digital/) |
-
-| [![Nulo](https://avatars.githubusercontent.com/u/86896666?u=d8beeebb5fce73f8d6d9ec6b27cedb5eaa5a1644&v=4&s=80)](https://github.com/catdevnull) |
-| :---: |
-| [Nulo](https://github.com/catdevnull) |
 <!-- /sponsors -->
